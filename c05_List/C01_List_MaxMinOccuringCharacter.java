@@ -15,7 +15,7 @@ public class C01_List_MaxMinOccuringCharacter {
         int i, j, min, max;          
           
         //Converts given string into character array  
-        char string[] = str.toCharArray();  //str.toCharArray yüntemi
+        char string[] = str.toCharArray();  //str.toCharArray yöntemi
           
         //Count each word in given string and store in array freq  
         for(i = 0; i < string.length; i++) {  
