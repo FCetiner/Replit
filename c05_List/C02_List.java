@@ -23,7 +23,7 @@ Output:
 		names[2]=temp;
 	
 		
-		System.out.println(Arrays.deepToString(names));
+		System.out.println(Arrays.deepToString(names).replace(", ", ","));
 	}
 
 }

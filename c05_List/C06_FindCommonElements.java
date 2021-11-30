@@ -22,7 +22,7 @@ public class C06_FindCommonElements {
 				}
 			}
 		}
-		System.out.println(arr3);
+		System.out.println(arr3.toString().replace(", ", ","));
 	}
 
 }

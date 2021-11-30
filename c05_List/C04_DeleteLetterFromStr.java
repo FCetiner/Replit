@@ -1,6 +1,8 @@
 package c05_List;
 
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class C04_DeleteLetterFromStr {
@@ -13,12 +15,7 @@ public class C04_DeleteLetterFromStr {
 	     // [Veli,Omer]
 		
 		
-		List <String> isimler = new ArrayList <>(); 
-		isimler.add("Ali");
-		isimler.add("Veli");
-		isimler.add("Ayse");
-		isimler.add("Fatma");
-		isimler.add("Omer");
+		List <String> isimler = new ArrayList <>(Arrays.asList("Ali","Veli","Ayse","Fatma","Omer"));
 		
 		for (int i = 0; i < isimler.size(); i++) {
 			if (isimler.get(i).contains("a")||isimler.get(i).contains("A")) {
@@ -26,7 +23,9 @@ public class C04_DeleteLetterFromStr {
 			i--;
 			}
 		}
-		System.out.println(isimler);
+
+		
+		System.out.println(isimler.toString().replace(", ", ","));
 	
 	}
 

@@ -23,7 +23,7 @@ public class C07_RemoveAnElement {
 			}
 		}
 
-		System.out.println(arr2);
+		System.out.println(arr2.toString().replace(", ", ","));
 	}
 
 }

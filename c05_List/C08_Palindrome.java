@@ -14,7 +14,7 @@ public class C08_Palindrome {
 		Reversed sentence : avaJ evol I. It is not a palindrome"
 		 */
 		Scanner scan = new Scanner(System.in);
-		System.out.println();
+		System.out.println("Please enter a string");
 		String str=scan.nextLine();
 		reverse(str);
 		
